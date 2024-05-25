@@ -57,67 +57,48 @@ const userData: IData = {
 			designation: 'Software Engineer',
 			company: 'The Hexaa',
 			location: 'Lahore, Pakistan',
-			duration: 'May 2022 - Present',
+			duration: '',
+			tasks: [
+				{
+					id: uuidv4(),
+					content: [
+						`Developed a  data transformer using <strong>TypeScript</strong> and <strong>Socket.io</strong> to receive data and convert <strong>JSON</strong> data into <strong>HTML</strong>.`,
+						`Wrote <strong>unit test cases</strong> for multiple products using <strong>Jest</strong> and <strong>React Testing Library</strong> to ensure code quality and facilitate easier testing.`,
+						`Containerized multiple projects using <strong>Docker</strong>, which ensures consistency across development, testing, and production environments by isolating applications and their dependencies.`,
+						`Implemented <strong>CI/CD</strong> pipelines on <strong>Bitbucket</strong> and <strong>GitHub Actions</strong> to enable continuous deployment, ensuring automated and efficient deployment processes for projects.`,
+						`Developed and published an <strong><a target='_blank' href='https://www.npmjs.com/package/react-fetch-interceptor'>npm</a></strong> library designed to intercept fetch requests, providing users with enhanced control and flexibility over network requests within their applications.`,
+						`Developed multiple reusable hooks using <strong>React.js</strong> for authentication management and parent window dimension calculation, enhancing code reusability and improving error handling capabilities.`,
+						`Integrated <strong>Twilio SDK</strong> into <strong>Next.js</strong> to emit notifications, providing users with timely alerts and notifications.`,
+						`Developed a reporting engine using <strong>React.js</strong> and the <strong>browser PDF API</strong> to dynamically generate various types of reports based on the data stored in the database.`,
+						`Integrated <strong>Firebase</strong> notification system into <strong>Next.js</strong> to send user notifications within the web application, ensuring multiple users receive early alerts.`,
+						`Developed a custom theme using <strong>Tailwind CSS</strong> for use across multiple projects, providing developers with a consistent and easily customizable styling solution.`
+					]
+				}
+			]
+		},
+		{
+			id: uuidv4(),
+			designation: 'Associate Software Engineer',
+			company: 'The Hexaa',
+			location: 'Lahore, Pakistan',
+			duration: 'May 2022 - December 2022',
 			tasks: [
 				{
 					id: uuidv4(),
 					projectName: 'Anatomic Iron',
 					content: [
-						`Engineered the front end of an employee management platform in React for a Canadian company that is helping <strong>3000+</strong> employees. Implemented <strong>role-based</strong> authentication and authorization system using React Context API.`,
-						`Architected a <strong>reporting engine</strong> in React that generated dynamic project reports by applying provided data filters. Also implemented an <strong>export</strong> functionality to convert these reports to Excel for further analysis.`,
-						`Developed a time-logging feature to allow employees to log their daily work hours. Used Socket.IO to implement an <strong>in-app notification</strong> system to notify employees if their logged hours are insufficient.`
-					]
-				},
-				{
-					id: uuidv4(),
-					projectName: 'Roof Technology Partners',
-					content: [
-						`Developed the front-end architecture of an employee training web platform in <strong>React</strong> to improve employee capabilities by offering training and certifications.`,
-						`Designed and implemented a user auth system by creating custom hooks with <strong>React Context API</strong> and <strong>JWT tokens</strong> for authentication. Utilized React higher order component pattern to validate user auth state and then apply redirection accordingly.`,
-						`Implemented <strong>push notifications</strong> using Firebase and developed an in-app notification mechanism using Socket.IO to notify users about new training and certificates.`,
-						`Integrated <strong>Reactstrap</strong> design library to build the user interface and components. Used different libraries like <strong>React data table</strong> and <strong>i18n</strong> for introducing multi-lingual capacity in the platform.`,
-					]
-				},
-				{
-					id: uuidv4(),
-					projectName: 'Lapco',
-					content: [
-						`Developed an e-commerce web app using <strong>Next.js</strong> and <strong>React Redux</strong> for a local computer vendor. Integrated features like product comparison, wishlist management, and a streamlined cart system.`,
-						`Developed a panel to power admin user to define <strong>custom form schema</strong>. Implemented a dynamic form feature that generates a “Sell to us” form from the server data based on admin provided schema. `,
-						`Engineered a coupon system using Next.js, Node.js, and MongoDB that lets admin generate coupons that can be used by customers on the checkout page.`
+						`Developed a comprehensive e-commerce site using <strong>Reactjs</strong>, enabling users to sell a wide variety of products. Designed and implemented an intuitive admin panel using Reactjs, allowing administrators to efficiently manage and add new products.`,
+						`Implemented cart functionality using <strong>Redux Toolkit</strong>, ensuring efficient state management and a seamless shopping experience.`,
+						`Integrated dual-language support using <strong>i18next</strong>, making the platform accessible to a broader audience.`,
+						`Incorporated real-time chat features using <strong>socket.io</strong>, enhancing user communication and support.`,
+						`Utilized <strong>API Sauce</strong> to seamlessly integrate various APIs, facilitating smooth data interaction and functionality across the platform.`,
+						`Integrated <strong>Stripe</strong> payment API to handle secure and reliable payment transactions, enhancing the overall user experience.`
 					]
 				}
 			]
 		}
 	],
 	projects: [],
-	// projects: [
-	// 	{
-	// 		id: uuidv4(),
-	// 		name: `<a href="https://github.com/msaaddev/jobboard">Jobboard</a>`,
-	// 		desc: `Built a PWA with <strong>HTML, CSS, JavaScript, Next.js</strong>, <strong>Firebase Auth</strong>, and <strong>Firestore</strong> to help developers get hired. Integrated features like user authentication, separate company and applicant dashboards, job posting, and job deleting.`
-	// 	},
-	// 	{
-	// 		id: uuidv4(),
-	// 		name: `<a href="https://github.com/msaaddev/jobboard">Jobboard</a>`,
-	// 		desc: `Built a PWA with <strong>HTML, CSS, JavaScript, Next.js</strong>, <strong>Firebase Auth</strong>, and <strong>Firestore</strong> to help developers get hired. Integrated features like user authentication, separate company and applicant dashboards, job posting, and job deleting.`
-	// 	},
-	// 	{
-	// 		id: uuidv4(),
-	// 		name: `<a href="https://github.com/msaaddev/jobboard">Jobboard</a>`,
-	// 		desc: `Built a PWA with <strong>HTML, CSS, JavaScript, Next.js</strong>, <strong>Firebase Auth</strong>, and <strong>Firestore</strong> to help developers get hired. Integrated features like user authentication, separate company and applicant dashboards, job posting, and job deleting.`
-	// 	},
-	// 	{
-	// 		id: uuidv4(),
-	// 		name: `<a href="https://github.com/msaaddev/jobboard">Jobboard</a>`,
-	// 		desc: `Built a PWA with <strong>HTML, CSS, JavaScript, Next.js</strong>, <strong>Firebase Auth</strong>, and <strong>Firestore</strong> to help developers get hired. Integrated features like user authentication, separate company and applicant dashboards, job posting, and job deleting.`
-	// 	},
-	// 	{
-	// 		id: uuidv4(),
-	// 		name: `<a href="https://github.com/msaaddev/jobboard">Jobboard</a>`,
-	// 		desc: `Built a PWA with <strong>HTML, CSS, JavaScript, Next.js</strong>, <strong>Firebase Auth</strong>, and <strong>Firestore</strong> to help developers get hired. Integrated features like user authentication, separate company and applicant dashboards, job posting, and job deleting.`
-	// 	}
-	// ],
 	accomplishments: [
 		`Winner, Web Development Competition by <a href="https://uol.edu.pk/">Univeristy of Lahore</a>, Lahore (2020)`,
 		`Participating in Hactoberfest challenge since 2020.`
