@@ -62,6 +62,10 @@ const userData: IData = {
 				{
 					id: uuidv4(),
 					content: [
+						`Engineered the front end of an employee management platform in React for a Canadian company that is helping <strong>3000+</strong>
+                         employees. Implemented role-based authentication and authorization system using <strong>React Context API.</strong>`,
+						`Developed a time-logging feature to allow employees to log their daily work hours. Used <strong>Socket.IO</strong> to implement an in-app
+                         notification system to notify employees if their logged hours are insufficient.`,
 						`Developed a  data transformer using <strong>TypeScript</strong> and <strong>Socket.io</strong> to receive data and convert <strong>JSON</strong> data into <strong>HTML</strong>.`,
 						`Wrote <strong>unit test cases</strong> for multiple products using <strong>Jest</strong> and <strong>React Testing Library</strong> to ensure code quality and facilitate easier testing.`,
 						`Containerized multiple projects using <strong>Docker</strong>, which ensures consistency across development, testing, and production environments by isolating applications and their dependencies.`,
