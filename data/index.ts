@@ -62,7 +62,7 @@ const userData: IData = {
 				{
 					id: uuidv4(),
 					content: [
-						`Implemented role-based authentication and authorization system using <strong>React Context API.</strong>.Engineered the front end of an employee management platform in React for a Canadian company that is helping <strong>3000+</strong>
+						`Implemented role-based authentication and authorization system using <strong>React Context API.</strong>Engineered the front end of an employee management platform in React for a Canadian company that is helping <strong>3000+</strong>
                          employees.`,
 						`Developed a time-logging feature to allow employees to log their daily work hours. Used <strong>Socket.IO</strong> to implement an in-app
                          notification system to notify employees if their logged hours are insufficient.`,
