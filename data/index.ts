@@ -53,6 +53,22 @@ const userData: IData = {
 	],
 	experience: [
 		{
+id:uuidv4(),
+designation: 'Software Engineer',
+company :'Maqsood Labs',
+location: 'Lahore, Pakistan',
+duration:'',
+tasks:[{
+id:uuidv4(),
+content:[
+`Developed a collection system using <strong>Strapi</strong>, enabling seamless launch of new collections and driving significant revenue growth.`,
+`Designed and implemented a <strong>custom logging system</strong> using <strong>Firebase</strong>, allowing the dev and marketing teams to track user journeys effectively.`,
+`<strong>Optimized the product's performance</strong>, improving the <strong>Lighthouse report</strong> score from <strong>36% to 75%</strong>, enhancing speed and user experience.`,
+`Implemented <strong>OTP and forgot password</strong> functionality using <strong>Next.js</strong>, ensuring a secure and seamless user authentication process.`
+],
+}]
+},
+		{
 			id: uuidv4(),
 			designation: 'Software Engineer',
 			company: 'The Hexaa',
